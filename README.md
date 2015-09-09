@@ -11,11 +11,10 @@ Sinatra app to work with arrays
 
 ## To start the homework application:
 
-1. Open the terminal/cmd line
-2. Use the cd command to navigate to the homework application
-3. Once in the root, type in "arrays_work.rb" to start the server
-4. If the site does not start and tells you to run "bundle install", do so and then repeat the previous site
-5. Once the server is running, open your browser to http://localhost:4567
+1. Open **run.rb** and the files in the **views/** folder
+2. If you haven't started the app, see step 4 above.
+3. Once the server is running, open your browser to http://localhost:4567
+4. If you just launched the app with ruby run.rb, you will need to restart with every change.
 
 ## Here are the steps to complete:
 
