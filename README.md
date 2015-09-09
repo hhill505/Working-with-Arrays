@@ -1,4 +1,4 @@
-# Arrays
+# Working with Arrays
 Sinatra app to work with arrays
 
 ## To get started
