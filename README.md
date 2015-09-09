@@ -6,8 +6,8 @@ Sinatra app to work with arrays
 1. Open the terminal/Command line tool can navigate to where you want the files to reside
 2. Clone this repository
 3. If you haven't, run the following
-		gem install sinatra
-		gem install rerun
+> gem install sinatra
+> gem install rerun
 4. run **ruby run.rb** or **rerun 'ruby run.rb'**
 
 
