@@ -3,18 +3,18 @@ Sinatra app to work with arrays
 
 ## To get started
 
-1. Open the terminal/Command line tool can navigate to where you want the files to reside
+1. Open the Terminal/Command line tool of your choice (terminal on mac and cmd on windows) 
+2. Navigate to where you want these files to reside
 2. Clone this repository
-3. If you haven't, run the **gem install sinatra** and **gem install rerun**
-4. run **ruby run.rb** or **rerun 'ruby run.rb'**
-
+3. If you haven't yet, enter **gem install sinatra** and **gem install rerun** at the command line
+4. Now run **ruby run.rb** or **rerun 'ruby run.rb'** (recommended)
 
 ## To start the homework application:
 
-1. Open **run.rb** and the files in the **views/** folder
+1. Open **run.rb** and  **years.erb** and **states.erb** files in the **views/** folder
 2. If you haven't started the app, see step 4 above.
 3. Once the server is running, open your browser to http://localhost:4567
-4. If you just launched the app with ruby run.rb, you will need to restart with every change.
+4. If you just launched the app with **ruby run.rb**, you will need to restart with every change.
 
 ## Here are the steps to complete:
 
@@ -45,3 +45,11 @@ Sinatra app to work with arrays
 7. Now sort the states array alphabetically so that the sorting is permanent
 
 8. Find the states.erb file in the views folder and iterate through the states array of states using HTML to display them as an unordered list
+
+## Submitting
+
+1. Add all files to your repository using *git add ..*
+2. Commit all your changes *git commit -am 'add your commit message here'*
+3. Push you changes to github with *git push origin master*
+4. Tag your project with *git tag completed -am 'another message'
+5. Push your tag to github git push --tags
