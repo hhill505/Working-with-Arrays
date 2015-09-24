@@ -5,8 +5,18 @@
   <li><a href="/states">Here is a list of a bunch of states</a></li>
 </ul>
 
-<p class="note">Here is the output of that variable: <i><%= @varaible_for_view %></i></p>
+<p class="note">Here is the output of that variable:
+  <i><%= @varaible_for_view %></i>
+  </p>
 <p class="note">Here, the output of that variable is suppressed because there is no '=': <% @varaible_for_view %></p>
+
+
+<p>If you want to loop in an ERB file, check the source code for this file (views/index.erb)</p>
+<ul>
+  <% @people.each do | person | %>
+    <li><%= person %></li>
+  <% end %>
+</ul>
 
 <ol>
   <li>Open the run.rb file in your text editor</li>
