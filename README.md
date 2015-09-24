@@ -9,6 +9,12 @@ Sinatra app to work with arrays
 3. If you haven't yet, enter **gem install sinatra** and **gem install rerun** at the command line
 4. Now run **ruby run.rb** or **rerun 'ruby run.rb'** (recommended)
 
+## Create your own repository
+1. On your github account, create your own repository called "Working with Arrays"
+2. Clone it to your computer (instructions can be found on your repository home page)
+3. Copy the files from the MGTI repo to your repo
+4. Add files (git add .) and then commit (git commit -am 'initial files' )
+
 ## To start the homework application:
 
 1. Open **run.rb** and  **years.erb** and **states.erb** files in the **views/** folder
