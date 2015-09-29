@@ -3,3 +3,11 @@
 <h2>My Array of Years:</h2> 
 
 <!-- use the erb outputs of <%= %> and call 'inspect' on your object -->
+
+<ul>
+  <% @years.each do | year | %>
+    <li><%= year %></li>
+  <% end %>
+</ul>
+
+	
