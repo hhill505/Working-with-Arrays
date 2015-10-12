@@ -5,8 +5,9 @@
 <!-- iterate through each state in the array and put them into list items individually -->
 
 <ul>
-<%@states.each do |state|%>
-<li><%=state%> </li>
+<!-- this works,  but for readability, leave a space after open brackets and closing -->
+<% @states.each do |state| %>
+<li><%= state %> </li>
 <%end%>
 </ul>
 
